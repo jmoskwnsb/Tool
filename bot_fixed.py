@@ -6,8 +6,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Cont
 
 # ==================== تنظیمات ====================
 # توکن رو اینجا بذار (یا از متغیر محیطی BOT_TOKEN استفاده کن)
-TOKEN = os.getenv("BOT_TOKEN") or "8969322982:AAGY9X2DQ_3a5FdCwKw5exQPGW1PwVkTEDE"
-
+TOKEN = os.getenv("BOT_TOKEN")
 # آیدی عددی ادمین رو اینجا بذار (با @userinfobot بگیر)
 ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
 
